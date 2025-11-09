@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "tailwindcss";
+
+body{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+@layer components{
+    .bg{
+        @apply bg-[url('../public/images/heroImg.jpg')] bg-cover h-[80vh] bg-center w-full;
+
+    }
+}
+@layer base{
+    p{
+        @apply text-sm;
+    }
+}
