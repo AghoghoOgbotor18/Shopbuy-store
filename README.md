@@ -8,7 +8,7 @@ This project showcases practical frontend development skills including state man
 ---
 
 ## Live Demo
-Coming soon…
+view the live demo - https://shopbuy-store.vercel.app/
 
 ---
 
