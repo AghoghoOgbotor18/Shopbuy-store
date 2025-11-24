@@ -1,6 +1,6 @@
 # 🛒 ShopBuy – Modern React E-Commerce Store
 
-ShopBuy is a fully responsive React + Redux e-commerce web application designed to mimic a real online shopping experience.  
+ShopBuy is a fully responsive React+Redux e-commerce web application designed to mimic a real online shopping experience.  
 It allows users to browse products, filter by categories, view detailed product pages, and manage their shopping cart with smooth UI interactions.  
 This project showcases practical frontend development skills including state management, routing, clean UI/UX, and component architecture.
 
