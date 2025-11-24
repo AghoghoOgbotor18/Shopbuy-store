@@ -2,7 +2,7 @@ import React from "react";
 import { FaMinus, FaPlus, FaRegTrashAlt } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { removeFromCart, updateQuantity } from "../Features/Cart/CartSlice";
+import { removeFromCart, updateQuantity } from "../Features/Cart/cartSlice";
 
 const CartPage = () => {
   const dispatch = useDispatch();
