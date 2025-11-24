@@ -21,9 +21,11 @@ const Home = () => {
         <div>
             <div className="bg flex flex-col gap-8 relative justify-center pl-10 p-5">
                 <div className="bg-black/70 absolute top-0 left-0 w-full h-[80vh]"></div>
-                <h2 className="text-4xl text-center md:text-left md:text-6xl font-bold text-white z-10 leading-5.5 md:leading-9">Discover, Shop and Love <br/><br/> What You Buy</h2>
+                <h2 className="text-4xl text-center md:text-left md:text-6xl font-bold text-white z-10 lg:w-[60%] leading-snug">Discover, Shop and Love What You Buy</h2>
                 <p className="text-center text-lg md:text-left md:w-[70%] lg:w-[50%] text-white z-10">Find everything you need, from fashion to tech - all in one place. Quality products, unbeatable prices, and fast delivery right to your door.</p>
-                <button className="z-10 bg-gradient-to-r from-purple-600 to-pink-600 border-0 w-[150px] py-3 font-bold px-6 rounded"><a href="#item" className="text-white">Shop Now</a></button>
+                <div className="flex justify-center items-center md:justify-start">
+                    <button className="z-10 bg-gradient-to-r from-purple-600 to-pink-600 border-0 w-[150px] py-3 font-bold px-6 rounded"><a href="#item" className="text-white">Shop Now</a></button>
+                </div>
             </div>
             <div className="container mx-auto my-10 px-4">
                 <div className=" container mx-auto flex flex-wrap gap-4" id="items">
