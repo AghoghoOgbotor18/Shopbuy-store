@@ -2,7 +2,7 @@ import React from "react";
 import { FiArrowDownLeft, FiArrowLeft, FiShoppingCart } from "react-icons/fi";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
-import { addToCart } from "../Features/Cart/CartSlice";
+import { addToCart } from "../Features/Cart/cartSlice";
 
 
 const ProductDetails = () => {
