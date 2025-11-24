@@ -6,7 +6,7 @@ body{
 }
 @layer components{
     .bg{
-        @apply bg-[url('../public/images/heroImg.jpg')] bg-cover h-[80vh] bg-center w-full;
+        @apply bg-[url('/images/heroImg.jpg')] bg-cover h-[80vh] bg-center w-full;
 
     }
 }
